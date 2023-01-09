@@ -1,0 +1,42 @@
+.navbarContainer {
+    /* border: 3px solid green; */
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+.navbarWrapper {
+    /* border: 4px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbarLeft {}
+
+.navbarTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+}
+
+.navbarRight {
+    /* border: 3px solid black; */
+    /* width: 400px; */
+}
+
+.navbarLogin {
+    /* border: 3px solid black; */
+    font-size: 20px;
+    font-weight: bold;
+    /* width: 400px; */
+    padding: 12px;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    box-shadow: 8px 8px 20px -5px black;
+}

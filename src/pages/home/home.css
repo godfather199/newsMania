@@ -1,0 +1,27 @@
+.homeContainer {
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeWrapper {
+    /* border: 4px solid green; */
+    width: 90%;
+}
+
+.homeTop {
+    /* border: 3px solid purple; */
+    margin-bottom: 40px;
+}
+
+.homeTitle {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif;
+}
+
+.homeHr {
+    border: 4px solid grey;
+}

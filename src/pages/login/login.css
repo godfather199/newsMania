@@ -1,0 +1,97 @@
+.loginContainer {
+    /* border: 3px solid #ff0000; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 640px;
+    margin-top: 30px;
+}
+
+.loginWrapper {
+    /* border: 3px solid red; */
+    /* border: 3px solid green; */
+    width: 40%;
+}
+
+.loginList {
+    /* border: 3px solid red; */
+    width: 70%;
+    box-shadow: 0px 0px 20px black;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.loginTop {
+    /* border: 4px solid red; */
+}
+
+.loginImgContainer {
+    /* border: 3px solid black; */
+}
+
+.loginImg {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.loginTitleTop {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.loginTitleBottom {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: grey;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.loginForm {
+    /* border: 3px solid purple; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.loginInput {
+    width: 280px;
+    padding: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+.loginFormAccount {
+    /* border: 3px solid orange; */
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginAccount {
+    font-size: 15px;
+    color: purple;
+    font-weight: bold;
+}
+
+.loginButton {
+    width: 310px;
+    padding: 8px;
+    font-size: 18px;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
